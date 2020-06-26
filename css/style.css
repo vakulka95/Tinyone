@@ -23,6 +23,26 @@ h2{
     text-align: center;
 }
 
+.title{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title__main{
+    font-size: 32px;
+}
+
+.title__text{
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.yellow{
+    color: #fcdb00;
+}
+
 /* Header */
 .header{
     background-color: #fcdb00;
@@ -81,4 +101,28 @@ h2{
 .ipad{
     display: block;
     margin: 60px auto 0;
+}
+
+/* Section features */
+
+.feature{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.feature__icon{
+    font-size: 50px;
+    margin-right: 50px;
+    color: #010101;
+}
+
+.feature__text{
+    color: #555;
+}
+
+/* Section touch */
+
+.touch{
+    color: #fff;
+    background-color: #010101;
 }
