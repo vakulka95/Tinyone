@@ -10,10 +10,24 @@ ul, li {
     margin: 0;
 }
 
+h1, h2, h3, h4, h5{
+    font-weight: 700;
+    color: #010101;
+}
+
+h3{
+    font-weight: 600;
+}
+
+h2{
+    text-align: center;
+}
+
 /* Header */
 .header{
     background-color: #fcdb00;
     padding-top: 58px;
+    padding-bottom: 105px;
 }
 
 .menu{
@@ -28,4 +42,43 @@ ul, li {
     font-size: 22px;
     font-weight: 700;
     color: #010101;
+}
+.offer{
+    width: 400px;
+    margin-top: 117px;
+}
+
+.offer__title{
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.offer__intro{
+    font-size: 20px;
+    color: #313841;
+}
+
+.offer__text{
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.icons__item{
+    margin-right: 38px;
+}
+
+.icons__item a{
+    color: #010101;
+    font-size: 42px;
+}
+
+.icons__item a:hover{
+    color: #505050;
+    transition: all 0.2s ease;
+}
+
+.ipad{
+    display: block;
+    margin: 60px auto 0;
 }
