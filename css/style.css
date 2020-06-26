@@ -3,3 +3,29 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.header{
+    background-color: #fcdb00;
+    padding-top: 58px;
+}
+
+.menu{
+    margin-top: 10px;
+}
+
+.menu__item{
+    margin: 0 57px;
+}
+
+.menu__item a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101;
+}
